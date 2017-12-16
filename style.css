@@ -1,0 +1,200 @@
+    * {
+        margin: 2px;
+        padding: 0;
+    }
+    
+    body {
+        margin: 0;
+        font-size: 19px;
+        color: white;
+        line-height: 1.5;
+        font-family: myFirstFont;
+        font-weight: bold;
+    }
+    
+    #koteret {
+        background-image: url("pig.jpeg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 20px;
+        text-align: center;
+        opacity: 0.9;
+        color: white;
+    }
+    
+    #koteret h1 {
+        font-size: 40px;
+        opacity: 1;
+        font-weight: bold;
+    }
+    
+    #koteret p {
+        font-size: 23px;
+        opacity: 1;
+        font-weight: bold;
+        font-family: myFirstFont;
+    }
+    
+    /*button settings*/
+    .hbtn {
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+        overflow: hidden;
+        padding: 8px 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        text-decoration: none;
+        color: rgb(63, 22, 244);
+        white-space: nowrap;
+        z-index: 0;
+        background: black;
+    }
+    
+    .hbtn i {
+        padding-right: 8px;
+    }
+    
+    .hb-border-bottom-br3::after {
+        border-radius: 50px;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
+        border: 2px solid rgb(255, 255, 255);
+        z-index: 2;
+        margin: 0px;
+        left: 0px;
+        bottom: 0px;
+        border-top-width: 2px;
+        transition: border-top-width 0.1s 0.2s, height 0.2s 0.1s, width 0.2s 0s, margin 0.2s 0s;
+    }
+    
+    .hb-border-bottom-br3 {
+        position: relative;
+        transition-duration: 0.3s;
+        overflow: visible;
+        box-sizing: border-box;
+        border: none;
+        padding: 10px 22px;
+    }
+    
+    .hb-border-bottom-br3:hover::after {
+        width: 60%;
+        height: 0px;
+        border-width: 0px 2px 2px;
+        margin: 0px 20%;
+        transition: border-top-width 0.1s 0s, height 0.2s 0.1s, width 0.2s 0.2s, margin 0.2s 0.2s;
+    }
+    
+    .hpill {
+        border-radius: 50px;
+    }
+    
+    .hpad2 {
+        padding: 12px 24px !important;
+    }
+    
+    .hbor3 {
+        border-width: 3px;
+    }
+    
+    .hbor3::before {
+        border-width: 3px !important;
+    }
+      /*button settings ends*/
+    div {
+        background: white;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 40px;
+        margin-top: 20px;
+    }
+    
+    #flex4 {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid grey;
+        background-color: black;
+    }
+    
+    .hbtno {
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+        overflow: hidden;
+        padding: 8px 20px;
+        margin: 0px 3px 6px;
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        white-space: nowrap;
+        z-index: 0;
+    }
+    
+    .hbtno i {
+        padding-right: 8px;
+    }
+    
+    .hb-fill-bottom::before {
+        position: absolute;
+        content: "";
+        background: rgb(255, 255, 255);
+        transition-duration: 0.3s;
+        z-index: -1;
+        top: 0px;
+        right: auto;
+        bottom: auto;
+        left: 0px;
+        width: 100%;
+        height: 0px;
+        opacity: 1;
+    }
+    
+    .hb-fill-bottom:hover::before {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    
+    .hb-fill-bottom:hover {
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        transition: color 0.3s ease, background 0s ease 0.3s;
+    }
+    
+    .hpad2 {
+        padding: 12px 24px !important;
+    }
+    
+    .hbor1 {
+        border-width: 1px;
+    }
+    
+    .hbor1::before {
+        border-width: 1px !important;
+    }
+    
+    .hpill {
+        border-radius: 50px;
+    }
+    .flex{
+        text-align: center;
+    }
+
+    
