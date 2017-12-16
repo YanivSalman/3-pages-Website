@@ -4,4 +4,4 @@ the reason for this project is to create a responsive fullScreen image using onl
 
 You can watch me coding  on youtube here :  https://www.youtube.com/watch?v=-RxETXY7NV0
 
-Watch it here : https://yanivsalman.github.io/3-pages-Website/
+Watch The project URL here : https://yanivsalman.github.io/3-pages-Website/
